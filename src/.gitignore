@@ -1,0 +1,7 @@
+.DS_Store
+
+node_modules/   # Ignore node_modules folder
+dist/
+.env
+coverage/
+.vscode/
