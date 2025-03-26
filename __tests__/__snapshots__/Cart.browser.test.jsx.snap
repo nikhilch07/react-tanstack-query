@@ -1,0 +1,74 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`snapshot with items in cart 1`] = `
+<DocumentFragment>
+  <div
+    class="cart"
+  >
+    <h2>
+      Cart
+    </h2>
+    <ul>
+      <li>
+        <span
+          class="type"
+        >
+          Pizza 1 - 
+        </span>
+        <span
+          class="size"
+        >
+          S - 
+        </span>
+        <span
+          class="size"
+        >
+           
+        </span>
+      </li>
+      <li>
+        <span
+          class="type"
+        >
+          Pizza 2 - 
+        </span>
+        <span
+          class="size"
+        >
+          M - 
+        </span>
+        <span
+          class="size"
+        >
+           
+        </span>
+      </li>
+    </ul>
+    <p>
+       Total: $25.00
+    </p>
+    <button>
+      Checkout
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`snapshot with nothing in cart 1`] = `
+<DocumentFragment>
+  <div
+    class="cart"
+  >
+    <h2>
+      Cart
+    </h2>
+    <ul />
+    <p>
+       Total: $0.00
+    </p>
+    <button>
+      Checkout
+    </button>
+  </div>
+</DocumentFragment>
+`;

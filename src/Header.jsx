@@ -5,7 +5,7 @@ import { CartContext } from "./context/cartContext";
 export default function Header() {
   const [cart] = use(CartContext);
   return (
-    <nav>
+    <nav data-testid="cart-number" >
       <Link to="/">
         <h1 className="logo">Padre Gino's Pizza</h1>
         </Link>
